@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Maroun ELKATTAR</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3662/3662817.png">
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+      <div class="profile">
+        <img src="https://media-exp1.licdn.com/dms/image/D4E03AQGX2iZnP2_dMg/profile-displayphoto-shrink_800_800/0/1666875018323?e=1672272000&v=beta&t=pswatZXcqvP-jgjqdoNXFtQ2ESWvn1ND4DG4jz_3B-U" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a>Maroun EL KATTAR</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="https://github.com/marounalkattar"title='gitHub'target="_blank" class="gitHub"><i class="bx bxl-github"></i></a>
+          <a href="https://www.facebook.com/maroun.kattar.9/"title='Facebook'target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="https://www.instagram.com/marounalkattar/"title='Instagram'target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="assets/Maroun_EL KATTAR_CV_FR.pdf"title='CV French version'target="_blank" class="google-plus"><i class="bx bxs-download"></i></a>
+          <a href="assets/Maroun_EL KATTAR_CV_EN.pdf"title='CV English version'target="_blank" class="google-plus"><i class="bx bxs-download"></i></a>
+          <a href="https://www.linkedin.com/in/marounkattar/"title='LinkedIn'target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav class="nav-menu">
+        <ul>
+          <li>
+            <div class="toggle-button-cover">
+              <div class="button-cover">
+                <div class="button b2" id="button-10">
+                  <input type="checkbox" class="checkbox" value="en" id="myCheck" onclick="myFunction()" />
+                  <div class="knobs">
+                    <span style="font-size: 16px;">EN</span>
+                  </div>
+                  <div class="layer"></div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="https://marounalkattar.github.io/maroun/#hero"><i class="bx bx-home"></i> <span id="Home">Home</span></a></li>
+          <li><a href="https://marounalkattar.github.io/maroun/#about"><i class="bx bx-user"></i> <span id="About">About</span></a></li>
+          <li><a href="https://marounalkattar.github.io/maroun/#resume"><i class="bx bx-file-blank"></i> <span id="Resume">Resume</span></a></li>
+          <li><a href="https://marounalkattar.github.io/maroun/#portfolio"><i class="bx bx-book-content"></i><span style="color: #149ddd;" id="projects">Projects</span> </a></li>
+          <li><a href="https://marounalkattar.github.io/maroun/#test"><i class="bx bx-user"></i><span id="testimo">Testimonials</span></a></li>
+          <li><a href="https://marounalkattar.github.io/maroun/#contact"><i class="bx bx-envelope"></i> Contacts</a></li>
+
+
+        </ul>
+      </nav><!-- .nav-menu -->
+<script>
+  function myFunction() {
+    var checkBox = document.getElementById("myCheck");
+    // console.log(checkBox);
+if (checkBox.checked == true) {
+console.log("FR");
+
+document.getElementById("About").innerHTML="À propos";
+document.getElementById("Resume").innerHTML="CV";
+document.getElementById("Home").innerHTML="Accueil";
+document.getElementById("projects").innerHTML="Projets";
+document.getElementById("testimo").innerHTML="Témoignages";
+document.getElementById("mainen").style.display = "none";
+document.getElementById("mainfr").style.display = "block";
+document.getElementById("createprob").innerHTML = "CRÉER UN PROBLÈME";
+document.getElementById("solveprob").innerHTML = "RÉSOUDRE LE PROBLÈME";
+
+
+
+
+
+
+
+} else {
+location.reload();
+}
+}
+        
+      </script>
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+
+    </div>
+  </header><!-- End Header -->
+  <main id="main">
+    <span id="mainen" >
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="Abouten">Introduction to home assistant:</h2>
+          <p id="intro" data-aos="fade-left">Home Assistant is a home automation platform where you can add and manage all your smart home devices.
+             It’s open-source and powered by a large community that is constantly working on improving the platform. One of the great benefits of Home Assistant is that it’s not a cloud-based like other similar platforms.
+              It was built with security and privacy in mind, so everything is done locally. Home Assistant is one of the most popular systems 
+              for organizing, automating and controlling smart home and IoT devices from a large number of different brands.
+             The program is written in Python and is open source.
+          </p>
+        </div>
+
+        <div class="row" data-aos="fade-right">
+          <img src="./assets/img/portfolio/first photo.png" alt="blog1" class="responsives">
+        </div>
+      </div>
+    </section><!-- End About Section -->    
+
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="skillsen">Home assistant core:</h2>
+      </div>
+      
+      <p id="intro" data-aos="fade-right">Home Assistant Core is a Python program, in simple words.
+        It can be run on various operating systems and provides the ability to track,
+         control and automate your devices. When people talk about Home Assistant Core,
+          they usually refer to a standalone. it is a combination of Home Assistant Core and tools which allows one to run it easily on a Raspberry Pi 
+          and other platforms without setting up an operating system first. Home Assistant is an all-in one-solution and has a management user interface 
+          that can be used from the Home Assistant frontend.
+        This interface is not present in a Home Assistant Core setup.
+    </p>
+      </div>
+    </section>
+
+
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="skillsen">My home assistant:</h2>
+      </div>
+          <p id="intro" data-aos="fade-up">Since I was a child, I started to be a smart home fan. I have made so many research to choose my hub.
+             And finally, I choose home assistant, which is extremely powerful, almost any automation you can think of home assistant has the tools
+              to make it happen. In 2019, I begin my smart home project,
+             by running home assistant on a raspberry pi 4. And this is some of my smart home today:
+        </p>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="skillsen">1- energey management</h2>
+      </div>
+      
+      <p id="intro" data-aos="fade-right">Home Assistant allows you to manage the energy of my home .
+         Gain new insights,
+         optimize your solar panel production, 
+        plan energy usage, and save money.
+    </p>
+      </div>
+      
+      <div class="row">
+          <img src="./assets/img/portfolio/energy.png" alt="blog1" class="responsives">
+      </div>
+    </section>
+
+
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="resumen">2- presence detection</h2>
+          <p id="intro" data-aos="fade-up">Presence detection is one of the best things to do in home assistant. It allows my home to know if there is any family member at home. 
+            Some of the automation that use
+             presence detection are: when coming home between 8:00pm and 5:00am automatically the lights will turn on, when leaving home, all lights,
+              ac will turn off and the doors will be checked if closed, when not at home alarm system will be 'on' so if a door is open a notification will 
+              be received via telegram.
+            
+        </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="skillsen">3- telegram bot</h2>
+      </div>
+      
+      <p id="intro" data-aos="fade-down">I have made a telegram bot to communicate with my smart home, 
+        so I can turn on the light or manipulate anything in the home. If somethings happen while 
+        I’m not at home a massage will be send with live streaming from my DVR
+    </p>
+      </div>
+    </section>
+    
+
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="resumen">4- cool 3d plan</h2>
+          <p id="intro" data-aos="fade-up">The photo bellow can tell everything about how cool this 3d plan is,
+             it is made for a wall customized tablet.
+        </p>
+        </div>
+        <div class="row">
+          <img src="./assets/img/portfolio/3d plan.png" alt="blog1" class="responsives">
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="skillsen">after all</h2>
+      </div>
+      
+      <p id="intro" data-aos="fade-left">
+        I would consider myself very technical, with over 2 years of experience with home assistant. It still challenge me at times.
+    </p>
+      </div>
+    </section>
+
+</span>
+
+  <!----------------------------------------------------------------------- main French ------------------------------------------------------>
+  <span id="mainfr" style="display: none;">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="Abouten">Présentation à Home Assistant:</h2>
+          <p id="intro">Home Assistant est une plate-forme domotique où vous pouvez ajouter et gérer tous vos appareils domestiques intelligents.
+            Il est open-source et alimenté par une grande communauté qui travaille constamment à l'amélioration de la plate-forme. L'un des grands avantages de Home Assistant est qu'il n'est pas basé sur le cloud comme d'autres plates-formes similaires.
+             Il a été construit dans un souci de sécurité et de confidentialité, donc tout est fait localement. Home Assistant est l'un des systèmes les plus populaires
+             pour organiser, automatiser et contrôler les appareils domestiques intelligents et IoT d'un grand nombre de marques différentes.
+            Le programme est écrit en Python et est open source.
+          </p>
+        </div>
+
+        <div class="row">
+          <img src="./assets/img/portfolio/first photo.png" alt="blog1" class="responsives">
+        </div>
+      </div>
+    </section><!-- End About Section -->    
+
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="skillsen">Home Assistant core:</h2>
+      </div>
+      
+      <p id="intro" data-aos="fade-right">
+        Home Assistant Core est un programme Python, en termes simples. Il peut être exécuté sur divers systèmes d'exploitation et offre la possibilité de suivre, de contrôler et d'automatiser vos appareils. Lorsque les gens parlent de Home Assistant Core, ils se réfèrent généralement à une version autonome. c'est une combinaison de Home Assistant Core et d'outils qui permettent de l'exécuter facilement sur un Raspberry Pi et d'autres plates-formes sans configurer d'abord un système d'exploitation. Home Assistant est une solution tout-en-un et dispose d'une interface utilisateur de gestion qui peut être utilisée à partir de l'interface Home Assistant. Cette interface n'est pas présente dans une configuration Home Assistant Core.
+        
+    </p>
+      </div>
+    </section>
+
+
+    <section id="resume" class="resume">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="skillsen">Mon home assistant:</h2>
+      </div>
+          <p id="intro" data-aos="fade-up">Dès mon enfance , j'ai commencé à être passionné d'une maison intelligente. J'ai fait tellement des recherches pour choisir mon hub. Et enfin, je choisis Home Assistant, qui est extrêmement puissant, presque toutes les automatisations auxquelles vous pouvez penser, Home Assistant a les outils pour le réaliser. En 2019, je commence mon projet de maison intelligente en exécutant l'assistant domestique sur un raspberry pi 4. Et voici une partie de ma maison intelligente aujourd'hui :
+        </p>
+        </div>
+      </div>
+    </section>
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="skillsen">1- gestion de l'énergie: </h2>
+      </div>
+      
+      <p id="intro" data-aos="fade-right">Home Assistant vous permet de gérer l'énergie de la maison. Obtenir de nouvelles informations, optimiser la production de panneaux solaires, planifier la consommation d'énergie et économiser de l'argent.
+    </p>
+      </div>
+      
+      <div class="row">
+        <img src="./assets/img/portfolio/energy.png" alt="blog1" class="responsives">
+      </div>
+    </section>
+
+
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="resumen">2- détection de la présence:</h2>
+          <p id="intro" data-aos="fade-up">La détection de la présence est l'une des meilleures choses à faire dans Home Assistant. Cela permet à ma maison de savoir s'il y a un membre de la famille à la maison. Certaines des automatisations qui utilisent la détection de la présence sont : lorsque vous rentrez à la maison entre 20h00 et 5h00, les lumières s'allument automatiquement, lorsque vous quittez la maison, toutes les lumières, la climatisation s'éteindront et les portes seront vérifiées si elles sont fermées, sinon, le système d'alarme sera « activé », et une notification sera reçue par télégramme.
+            
+        </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="skillsen">3- telegram bot</h2>
+      </div>
+      
+      <p id="intro" data-aos="fade-down">J'ai créé un robot de télégramme pour communiquer avec ma maison intelligente, afin que je puisse allumer la lumière ou manipuler n'importe quoi dans la maison. Si quelque chose se passe pendant mon absence, un massage sera envoyé avec une diffusion en direct par mon DVR
+    </p>
+      </div>
+    </section>
+    
+
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="resumen">4- cool 3d plan</h2>
+          <p id="intro" data-aos="fade-up">La photo ci-dessous peut tout dire sur la fraîcheur de ce plan 3d, il est fait pour une tablette murale personnalisée.
+        </div>
+        <div class="row">
+          <img src="./assets/img/portfolio/3d plan.png" alt="blog1" class="responsives">
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2 id="skillsen">Après tout</h2>
+      </div>
+      
+      <p id="intro" data-aos="fade-left">
+        Je me considère comme une personne très technique, avec plus de 2 ans d'expérience en tant qu'utilisateur Home Assistant et cela me défie encore parfois.</p>
+      </div>
+    </section>
+</span>
+  
+
+  <section class="home">
+    <div class="containers">
+       <div class="rows">
+           <div class="home-text">
+                <h1>Maroun EL KATTAR</h1>
+                <p class="animate-text">
+                   <span id="createprob">CREATE PROBLEMS </span>
+                   <span id="solveprob">SOLVE PROBLEMS </span>
+                  
+                </p>
+           </div>
+       </div>
+    </div>
+  </section>
+
+<script>
+const txts=document.querySelector(".animate-text").children,
+      txtsLen=txts.length;
+  let index=0;
+ const textInTimer=3000,
+       textOutTimer=2800;
+
+function animateText() {
+   for(let i=0; i<txtsLen; i++){
+     txts[i].classList.remove("text-in","text-out");  
+   }
+   txts[index].classList.add("text-in");
+
+   setTimeout(function(){
+       txts[index].classList.add("text-out");              
+   },textOutTimer)
+
+   setTimeout(function(){
+
+     if(index == txtsLen-1){
+         index=0;
+       }
+      else{
+          index++;
+        }
+       animateText();
+   },textInTimer); 
+}
+
+window.onload=animateText;
+
+</script>
+<section class="home">
+
+</section>
+  </main>
+
+  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+  <footer id="footer">
+      <div class="credits">
+        <img src="assets/img/MKlogo.jpg" class="img-fluid" alt="">
+       
+      </div>
+    </div>
+  </footer><!-- End  Footer -->
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
